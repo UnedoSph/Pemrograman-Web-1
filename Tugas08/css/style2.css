@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 20%;
+}
+body {
+    background-color: pink;
+}
+header, footer {
+    background-color: aqua;
+    height: 10vh;
+    margin: 20px;
+}
+main {
+    height: 70vh;
+    margin: 0 20px;
+    display: flex;
+}
+aside {
+    background-color: aquamarine;
+    flex: 1;
+    margin-right: 20px;
+}
+article {
+    background-color: red;
+    flex: 3;
+    text-align: center;
+}
+article .text {
+    height: 30vh;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
